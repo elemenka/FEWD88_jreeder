@@ -1,0 +1,22 @@
+body {
+	background: black;
+	color: white;
+}
+
+h1 {
+	font-family: helvetica;
+	font-weight: lighter;
+
+}
+p  {font-family: helvetica;
+   font-weight: lighter;
+}
+
+ul {
+	list-style: none;
+	font-family: helvetica;
+	font-weight; bold;
+
+}
+
+

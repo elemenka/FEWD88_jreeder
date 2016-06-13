@@ -1,0 +1,48 @@
+body {
+    background
+}
+
+img [width="1060"]{
+    width:200px;
+    height:auto;
+    background-color; black
+
+}
+
+h1 {
+	margin-top: 0px;
+	font-family: "helvetica", arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 80px;
+	line-height: 85%;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	padding-bottom: 0px;
+}
+
+h2 {
+	margin-top: 0px;
+	padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+	color: white;
+	font-size: .875em;
+	font-family: helvetica, arial, sans-serif;
+	font-style: bold;
+	text-indent: 18px;
+	letter-spacing: 2px;
+	text-align: left;
+	text-transform: uppercase;
+
+}
+
+p {
+	margin-top: 0px;
+	font-family: "helvetica", arial, sans-serif;
+}
+
+div {
+	margin-top: 0px;
+}

@@ -1,0 +1,44 @@
+
+
+
+/*body {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0px 0 40px 0;
+  background-color: #eaeaea;
+}*/
+
+.container{
+	background-color: gray;
+/*	height: 200px;*/
+	padding:10px;
+	margin:0 auto;
+	width: 90%;
+}
+
+.common{
+	width: 90%;
+	height: 100px;
+	background-color: #BBFFFF;
+	margin:10px;
+	margin-left:5%;
+}
+
+#nav{
+	text-align: center;
+	background-color: black;
+	height: 100px;
+	line-height: 100px;
+}
+
+#nav a {
+	color:white;
+	font-family:helvetica;
+	font-weight:bolder;
+}
+
+p {
+	padding:10px;
+	font-family:helvetica;
+	font-weight:lighter;
+}

@@ -2,10 +2,15 @@ body {
     background
 }
 
-img [width="1060"]{
-    width:200px;
+#hero {
+/*	display:inline-flex;*/
+}
+
+img {
+	width:100%;
+	display:inline-block;
     height:auto;
-    background-color; black
+    background-color:black;
 
 }
 

@@ -1,3 +1,51 @@
 body {
+	margin:0 auto;
     background: red;
+}
+
+.main {
+	background-color:orange;
+	height:100px;
+	display:inline-block;
+}
+
+.container {
+	
+}
+
+h1 {
+	font-family:helvetica;
+	font-weight:lighter;
+	word-spacing:30px;
+	background-color:white;
+	line-height:3em;
+	display:inline-block;
+	margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+/*    display: inline-block;*/
+}
+
+li {
+    display: inline;
+}
+
+.nav {
+	text-align:right;
+	background-color:orange;
+}
+
+
+
+h1 { 
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    display:inline-block;
+    float:right;
 }

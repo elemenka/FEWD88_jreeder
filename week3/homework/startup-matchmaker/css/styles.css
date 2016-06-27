@@ -1,0 +1,178 @@
+
+
+body {
+	 max-width: 1040px;
+     margin: 0 auto; 
+   }
+
+.container {
+	margin:0 auto;
+}
+
+.line {
+	margin-top:0px;
+	border-bottom: 5px yellow solid;
+}
+
+nav {
+	margin-top:-50px;
+	text-align:right;
+	word-spacing:30px;
+}
+
+nav a {
+	padding-right:20px;
+	padding-bottom:5px;
+	font-family: Merriweather;
+	text-decoration:none;
+	color:white;
+}
+
+.subheader {
+	line-height:50px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#c6c6c6;
+	text-align:center;
+}
+
+.yellow1 {
+/*	 border-style: solid;*/
+     border-bottom: medium solid yellow;
+}
+
+h1 {
+	padding-left:20px;
+	line-height:50px;
+	color:yellow;
+	background-color:black;
+	font-family:Merriweather;
+/*	float:left;
+*//*	display:inline-block;*/
+}
+
+.overlay {
+	height:300px;
+}
+
+.main {
+	margin-top:0px;
+	height:400px;
+	background:url(../img/coworking.jpg) center center no-repeat;
+	background-size:cover;
+
+}
+
+.overlay {
+	margin-top:40px;
+	margin-right:40px;
+	width:400px;
+	float:right;
+	background-color:rgba(255,255,255,0.8);
+}
+
+.overlay_header{
+	margin-left:30px;
+	font-family:Oswald;
+	font-size:1.5em;
+	font-weight:bolder;
+}
+
+.overlay_text{
+	margin-left:30px;
+	margin-right:30px;
+	font-family:Oswald;
+	font-size:1em;
+}
+
+.button{
+	border-radius: 6px;
+	margin-left:30px;
+	background-color:yellow;
+	font-family:Oswald;
+	font-size:1.1em;
+	padding: 5px 40px;
+}
+
+#aaa {
+	word-spacing:0px;
+}
+
+.taste {
+	color:999999;
+	text-decoration:line-through;
+}
+
+.subheader {
+	font-family:Merriweather;
+}
+
+.boxes {
+	display:inline-block;
+}
+
+.box_header {
+	font-family:Oswald;
+	font-size:1.5em;
+	padding-left:20px;
+}
+
+.box_text {
+	font-family:Oswald;
+	padding-left:20px;
+	padding-right:10px;
+
+}
+
+.boxes {
+	width:100%;
+}
+
+.profile {
+/*	padding-left:5px;*/
+	width:33.333333%;
+	height:220px;
+	background-color:#c6c6c6;
+	float:left;
+	/*padding:20px;*/
+}
+
+.box_button {
+/*	padding-left:20px;*/
+    border-radius: 6px;
+	margin-left:20px;
+	background-color:grey;
+	font-family:Oswald;
+	font-size:1.1em;
+	padding: 5px 40px;
+
+}
+
+.finddeveloper{
+	/*padding-left:5px;*/
+	width:33.333333%;
+	height:220px;
+	background-color:#c6c6c6;
+	float:left;
+/*	padding:20px;*/
+}
+
+
+
+.finddesigner{
+/*	padding-left:5px;*/
+	width:33.333333%;
+	height:220Px;
+	background-color:#c6c6c6;
+	float:left;
+}
+
+.footer {
+	padding-left:20px;
+	background-color:black;
+	color:white;
+	font-family:Merriweather;
+	line-height:3em;
+/*	width:100%;*/
+}
+

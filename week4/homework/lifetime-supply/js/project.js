@@ -1,23 +1,26 @@
-// var age = document.getElementById('age');
-// var max-age = document.getElementById('max-age');
-// var num-per-day = document.getElementById('num-per-day');
-// var click-me = document.getElementById('click-me');
-// var solution = document.getElementById('solution');
-// var item = document.getElementById('item');
+var age; 
+var max_age;
+var num_per_day;
+var item;
 
+document.getElementById('click_me').onclick = calculate;
 
+function calculate(){
+	age = parseInt(document.getElementById('age').value);
+	// console.log(age);
+	max_age = parseInt(document.getElementById('max_age').value);
+	item = document.getElementById('item').value;
+	num_per_day = parseInt(document.getElementById('num_per_day').value);
 
-document.getElementById('click-me').onclick = calculate;
+	var total_drinks = (max_age - age) * 365 * num_per_day;
 
-function calculate () {
-	var age = parseInt(document.getElementById('age').value);
-	var maxAge = parseInt(document.getElementById('max-age').value);
-	var item = document.getElementById('item').value;
-	var numPerDay = parseInt(document.getElementById('num-per-day').value);
-
-	var solution = (maxAge - age) * (numPerDay * 365);
-
-	document.getElementById('solution').innerHTML = solution;
+	document.getElementById('solution').innerHTML = total_drinks;
 	document.getElementById('drink').innerHTML = item;
 
+	
+
 }
+
+
+
+// parseInt.(document.getElementById('age').value);

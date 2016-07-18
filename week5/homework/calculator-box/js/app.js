@@ -42,6 +42,70 @@
 	// $("a10").click(function(){
  //        $("#a20").hide();
 	// }
+
+// $('.row').click(function(){
+
+// $(this).find('.wrapper').slideToggle('fast');
+
+// });
+
+
+$(document).ready(function(){
+
+var total = 0;
+
+$('#a10').click(function(){
+	total = total + 10;
+	$('#out').html(total);
+})
+
+$('#a20').click(function(){
+	total = total + 20;
+	$('#out').html(total);
+})
+
+$('#a30').click(function(){
+	total = total + 30;
+	$('#out').html(total);
+})
+
+$('#n10').click(function(){
+	total = total - 10;
+	$('#out').html(total);
+})
+
+$('#n20').click(function(){
+	total = total - 20;
+	$('#out').html(total);
+})
+
+$('#n30').click(function(){
+	total = total - 30;
+	$('#out').html(total);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
 var out = document.getElementById('out')
 
 document.getElementById('out').onclick = zero;
@@ -98,17 +162,19 @@ blue.onclick = function(){
 	 document.getElementById("blue").style.backgroundColor = "blue";
 }
 
-document.getElementById('out').onclick = clear;
+// document.getElementById('out').onclick = clear;
 
-function clear() {
-  document.getElementById('red', 'blue').style.backgroundColor = "white";
-}
-
-// document.getElementById('out').onclick = clearclear;
-
-// function clearclear() {
-//   document.getElementById('blue').style.backgroundColor = "white";
+// function clear() {
+  
 // }
+
+document.getElementById('out').onclick = clearclear;
+
+function clearclear() {
+  zero()
+  document.getElementById('blue').style.backgroundColor = "white";
+  document.getElementById('red').style.backgroundColor = "white";
+}
 
 
 

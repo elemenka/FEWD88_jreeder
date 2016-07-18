@@ -1,0 +1,42 @@
+* {
+  font-family: helvetica;
+  font-size: 30pt;
+  color: white;
+  padding: 5px;
+  border: 0;
+/*  margin: 10px;*/
+}
+
+body {
+  margin:0, auto;
+  background: radial-gradient(#63a6e3, #fc60d5);
+  height:3000px;
+  background-repeat: no-repeat;
+}
+
+
+input {
+  margin-right: 0;
+  background-color: #0BF2ED;
+  outline: none;
+}
+
+span {
+  padding: 9px;
+/*  background-color: #222;
+*/}
+
+b {
+  display: inline-block;
+  width: 40px;
+  margin-left: 0px;
+  background-color: #0BF2ED;
+}
+
+input: focus {
+  outline: none;
+}
+
+button {
+  background-color:#0BF2ED;
+}

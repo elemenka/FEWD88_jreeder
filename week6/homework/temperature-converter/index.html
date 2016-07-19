@@ -8,9 +8,24 @@
 </head>
 <body>
 	
-<span><input id="celsius"><b>&#8451;</b></span> = <span><input id="farenheit"><b>&#x2109;</b></span>
+<!-- <span><input id="temp"><b>placeholde</b></span> = <span><input id="farenheit"><b>&#x2109;</b></span> -->
 
-<button> GO </button>
+<form>
+
+<input id="temp" placeholder="enter temp"/>
+<p> Enter Unit</p>
+<label for="F">&deg;F</label>
+<input type="radio" name="unit" value="F" id="F"/>
+<label for="C">&deg;C</label>
+<input type="radio" name="unit" value="F" id="F"/>
+<!-- <label for="C">&deg;C</label> -->
+<!-- <input type="radio" name="unit" value="C" id="C"/> -->
+<input id="sumbit" type="submit" name="convert" value="convert"/>
+</form>
+
+<p id="output"></p>
+
+<!-- <button> GO </button> -->
 
 
 

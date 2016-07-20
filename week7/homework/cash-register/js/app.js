@@ -16,15 +16,44 @@
 
 $(document).ready(function () {
 
-$("#entry").submit(function (){
-var newEntry = $('#newEntry').val();
-newEntry = parseInt(newEntry);
-var total = newEntry;
+// $("#entry").submit(function (){
+// event.preventDefault();
+// var newEntry = $('#newEntry').val();
+// newEntry = parseInt(newEntry);
+// var total = newEntry;
 // $('#total').text('newEntry');
-$('#entries').append('newEntry');
+// $('#entries').append(newEntry);
 
-})
+// })
+var total = 0;
+
+$('#entry').submit(enter);
+
+function enter () {
+
+	event.preventDefault();
+	var entry = $('#newEntry').val();
+	var entry = parseFloat(entry);
+	currency = currencyFormat(entry);
+
+	$('#entries').append('<tr><td></td><td>' + currency + '</td></tr>');
+
+	total += entry;
+
+$('#total').html (currencyFormat(total));
+
+$('#newEntry').val('');
+
+}
+
+function currencyFormat(number) {
+	var currency = parseFloat(number);
+	curency = currency.toFixed(2);
+	currency = '$' + currency;
+	return currency;
+}
 
 
 
-})
+
+});

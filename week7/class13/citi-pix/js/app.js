@@ -19,4 +19,15 @@
 
 $(document).ready(function() {
 
+	$('#city-type').change(changePhoto);
+
+	function changePhoto(){
+
+	var city = $('#city-type').val()
+	$('body').removeClass();
+
+
+	$('body').addClass(city);
+	}
+
 });

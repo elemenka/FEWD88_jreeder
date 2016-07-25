@@ -1,0 +1,234 @@
+body {
+/*	background:url("staff.png");
+*/
+	margin:0, auto;
+	background: linear-gradient(to bottom, #63a6e3, #fc60d5);
+	height:3000px;
+	background-repeat: no-repeat;
+}
+
+.fixedElements {
+	position:fixed;	
+
+}
+
+h1 {
+/*	margin-top:50px;
+*/	/*clear:right;*/
+	margin-left:20%;
+	font-style:italic;
+	font-size:6em;
+	word-spacing: 30px;
+	color:#904dd9;
+/*	color:black;*/
+}
+
+p {
+	text-align:center;
+}
+
+
+#major {
+	margin-left:20px;
+}
+
+#CM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#GM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#DM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#AM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#EM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#BM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#FsharpMajor {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#G♭M {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#D♭M {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#A♭M {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#E♭M {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#B♭M {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#FM {
+	color:white;
+	background-color:#ff00e5;
+}
+
+#Am {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Em {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Bm {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#FsharpMinor {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#CsharpMinor {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#GsharpMinor {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#E♭m {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#B♭m {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Fm {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Cm {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Gm {
+	color:white;
+	background-color:#14ccbb;
+}
+
+#Dm {
+	color:white;
+	background-color:#14ccbb;
+}
+
+.note {
+	margin-left:-100px;
+	margin-top:-60px;
+}
+
+
+.hr {
+/*	margin-top:400px;
+*/	/*position:fixed;*/
+/*	display:inline-block;
+*/  position: absolute;
+	top:200px;
+/*	margin-left:;*/
+
+	margin-left:35%;
+	align:center;
+    height: 2px;
+    background: #ffffff;
+    width: 30%;
+    font-size: 1px;
+/*    margin-top:30px;
+*/  }
+
+ /* #treble {
+  	margin-left:300px;
+  }*/
+
+  #major_keys {
+  	margin-left:50px;
+  	position:absolute;
+  	top:400px;
+  }
+
+  #minor_keys {
+  	float:top;
+  	margin-left:50px;
+  	position:absolute;
+  	top:500px;
+  }
+
+  #major_label {
+  	margin-left:50px;
+  	position:absolute;
+  	top:350px;
+  }
+
+  #minor_label {
+  	margin-left:50px;
+  	margin-left:50px;
+  	position:absolute;
+  	top:450px;
+  }
+
+
+
+  #staff {
+  	position: absolute;
+    left: 100px;
+    top: 150px;
+/*  	margin-top:400px;
+*/*//*  	position:fixed;
+  }
+
+  button {
+  	border: none;
+  	float:right;
+  	margin-top:40px;
+  	margin-left:20px;
+  	margin-right:20px;
+  	height:30px;
+  	width: 60px;
+  	background-color:blue;
+  	stroke:none;
+  	box-shadow: none;
+  }

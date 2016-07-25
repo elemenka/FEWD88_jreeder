@@ -16,15 +16,7 @@
 
 $(document).ready(function () {
 
-// $("#entry").submit(function (){
-// event.preventDefault();
-// var newEntry = $('#newEntry').val();
-// newEntry = parseInt(newEntry);
-// var total = newEntry;
-// $('#total').text('newEntry');
-// $('#entries').append(newEntry);
 
-// })
 var total = 0;
 
 $('#entry').submit(enter);
@@ -32,7 +24,7 @@ $('#entry').submit(enter);
 function enter () {
 
 	event.preventDefault();
-	var entry = $('#newEntry').val();
+	var entry = parseFloat($('#newEntry').val());
 	var entry = parseFloat(entry);
 	currency = currencyFormat(entry);
 
@@ -57,3 +49,13 @@ function currencyFormat(number) {
 
 
 });
+
+// $("#entry").submit(function (){
+// event.preventDefault();
+// var newEntry = $('#newEntry').val();
+// newEntry = parseInt(newEntry);
+// var total = newEntry;
+// $('#total').text('newEntry');
+// $('#entries').append(newEntry);
+
+// })

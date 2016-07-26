@@ -7,25 +7,35 @@ body {
 	background-repeat: no-repeat;
 }
 
-.fixedElements {
-	position:fixed;	
+#yeah {
+	/*position:fixed;	*/
 
 }
 
 h1 {
 /*	margin-top:50px;
 */	/*clear:right;*/
-	margin-left:20%;
-	font-style:italic;
-	font-size:6em;
+/*	text-align: center;
+*/	font-style:italic;
+	font-size:5em;
 	word-spacing: 30px;
 	color:#904dd9;
+	position:fixed;
+	margin-left:30%;
+
 /*	color:black;*/
 }
 
 p {
 	text-align:center;
 }
+
+#instructions {
+	text-align:left;
+	position:fixed;
+}
+
+
 
 
 #major {
@@ -163,19 +173,18 @@ p {
 }
 
 
-.hr {
+.line {
 /*	margin-top:400px;
 */	/*position:fixed;*/
 /*	display:inline-block;
-*/  position: absolute;
 	top:200px;
 /*	margin-left:;*/
 
-	margin-left:35%;
-	align:center;
-    height: 2px;
+	margin-left:22%;
+/*	align:center;
+*/    height: 2px;
     background: #ffffff;
-    width: 30%;
+    width: 300px;
     font-size: 1px;
 /*    margin-top:30px;
 */  }
@@ -184,40 +193,87 @@ p {
   	margin-left:300px;
   }*/
 
+ #one {
+	margin-top:50px;
+	position: fixed;
+
+}
+
+#two {
+	margin-top:60px;
+	position: fixed;
+}
+
+#three {
+	margin-top:70px;
+	position: fixed;
+
+}
+
+#four{
+	margin-top:80px;
+	position: fixed;
+
+}
+
+#five{
+	margin-top:90px;
+	position: fixed;
+
+}
+
+#six{
+	margin-top:100px;
+	position: fixed;
+
+}
+
+
   #major_keys {
   	margin-left:50px;
-  	position:absolute;
+  	position:fixed;
   	top:400px;
+  	margin-bottom:100px;
   }
 
   #minor_keys {
   	float:top;
   	margin-left:50px;
-  	position:absolute;
+  	position:fixed;
   	top:500px;
+  	margin-bottom:100px;
   }
 
   #major_label {
   	margin-left:50px;
-  	position:absolute;
+  	position:fixed;
   	top:350px;
   }
 
   #minor_label {
+  	position:fixed;
+  	margin-top:100px;
   	margin-left:50px;
   	margin-left:50px;
+/*  	position:absolute;
+/**/  	top:450px;
+*/  }
+
+  /*#instructions {
   	position:absolute;
-  	top:450px;
-  }
+  	left:100px;
+  	top:400px;
+  	}
+  }*/
 
 
 
   #staff {
-  	position: absolute;
+  	position: fixed;
     left: 100px;
     top: 150px;
-/*  	margin-top:400px;
-*/*//*  	position:fixed;
+*//*  	margin-top:400px;
+*//*  	position:fixed;
   }
 
   button {

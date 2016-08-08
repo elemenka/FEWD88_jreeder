@@ -1,0 +1,353 @@
+body {
+	/*margin:0, auto;*/
+	background: linear-gradient(to bottom, #63a6e3, #fc60d5);
+	height:1000px;
+	background-repeat: no-repeat;
+}
+
+#allContent {
+	position:fixed;
+}
+
+.line {
+	height:2px;
+	width:400px;
+	background:#ffffff;
+	margin-top:30px;
+	margin-left:43%;
+}
+
+#notes {
+	margin-top:-110px;
+}
+
+.note {
+	width:5%;
+	height:5%;
+}
+
+.note {
+ 	margin-left:65%;
+}
+
+#trebleCleff {
+	/*width:7%;*/
+	/*height:7%;*/
+	margin-top:-148px;
+	margin-left:42%;
+}
+
+
+#noteF {
+	position:absolute;
+	top:145px;
+}
+
+#noteD {
+	position:absolute;
+	top:180px;
+}
+
+#noteB{
+	position:absolute;
+	top:212px;
+}
+
+#noteG {
+	position:absolute;
+	top:244px;
+}
+
+#noteEE {
+	position:absolute;
+	top:276px;
+}
+
+#noteDD {
+	position:absolute;
+	top:288px;
+}
+
+#noteE {
+	position:absolute;
+	top:160px;
+}
+
+#noteC {
+	position:absolute;
+	top:195px;
+}
+
+#noteA {
+	position:absolute;
+	top:225px;
+}
+
+#noteFF {
+	position:absolute;
+	top:260px;
+}
+
+#Fsharp {
+	margin-left:48%;
+	position:absolute;
+	top:143px;
+}
+
+#Esharp {
+	margin-left:60%;
+	position:absolute;
+	top:155px;
+}
+
+#Csharp {
+	margin-left:50%;
+	position:absolute;
+	top:190px;
+}
+
+#Gsharp {
+	margin-left:53%;
+	position:absolute;
+	top:132px;
+}
+
+#Dsharp {
+	margin-left:55%;
+	position:absolute;
+	top:174px;
+}
+
+ #Asharp {
+	margin-left:57%;
+	position:absolute;
+	top:220px;
+}
+
+#Bflat {
+	margin-left:50%;
+	position:absolute;
+	top:200px;
+	display:none;
+}
+
+#Eflat {
+	margin-left:53%;
+	position:absolute;
+	top:155px;
+	display:none;
+}
+
+#Aflat {
+	margin-left:55%;
+	position:absolute;
+	top:220px;
+	display:none;
+}
+
+#Dflat {
+	margin-left:57%;
+	position:absolute;
+	top:172px;
+	display:none;
+}
+
+#Gflat {
+	margin-left:59%;
+	position:absolute;
+	top:233px;
+	display:none;
+}
+
+#Cflat {
+	margin-left:62%;
+	position:absolute;
+	top:190px;
+	display:none;
+}
+
+
+
+#yeah {
+	color:#904dd9;
+	text-align:center;
+	font-size:2em;
+	font-style:italic;
+	word-spacing: 30px
+	font-style:italic;
+	margin-left:20%;
+	width:100%;
+	/*white-space: nowrap;*/
+  	/*overflow: hidden;*/
+  }
+
+ #instructions {
+ 	margin-left:10%;
+ 	margin-top:150px;
+ 	color:white;
+ 	font-size:1.5em;
+ 	letter-spacing: 2px;
+ }
+
+ #major_label {
+ 	margin-left:10%;
+ 	color:white;
+ 	font-size:1.5em;
+ 	letter-spacing: 2px;
+ }
+
+ 
+
+ #minor_label {
+ 	margin-left:10%;
+ 	color:white;
+ 	font-size:1.5em;
+ 	letter-spacing: 2px;
+ }
+
+ #major_keys {
+ 	position:relative;
+ 	bottom:5%;
+ 	top:60%;
+ 	width:100%;
+ 	margin-left:10%;
+ }
+
+ #minor_keys {
+ 	width:100%;
+ 	margin-left:10%;
+ }
+
+ .majorButton {
+ 	border:none;
+ 	border-radius:10%;
+ 	letter-spacing: 0.1em;
+ 	width:60px;
+	height:30px;
+	color:white;
+	background-color:#ff00e5;
+}
+
+.minorButton {
+	border-radius:50%;
+	border:none;
+	letter-spacing: 0em;
+	width:60px;
+	height:30px;
+	color:white;
+	background-color:#14ccbb;
+	align:bottom;
+}
+
+#reset {
+	padding-top:4%;
+}
+
+#resetButton {
+	position:relative;
+	margin-left:10%;
+ 	border:none;
+ 	border-radius:100%;
+ 	letter-spacing: 0.1em;
+ 	width:100px;
+	height:30px;
+	color:white;
+	background-color:#00F5FF;
+}
+
+/*#notes {
+	display:none;
+}*/
+
+#Fsharp {
+	display:none;
+}
+
+
+#Csharp {
+	display:none;
+
+}
+
+#Gsharp {
+	display:none;
+
+}
+
+#Asharp {
+	display:none;
+
+}
+
+#Dsharp {
+	display:none;
+
+}
+
+#Esharp {
+	display:none;
+
+}
+
+
+
+/*#flats {
+	display:none;
+}
+*/
+/*//CMajor*/
+
+#noteA {
+	display:none;
+}
+
+#noteC {
+	display:none;
+}
+
+#noteE {
+	display:none;
+}
+
+/*//GMajor*/
+
+#noteG {
+	display:none;
+}
+
+#noteB {
+	display:none;
+}
+
+#noteD {
+	display:none;
+}
+
+/*//DMajor*/
+
+#noteDD {
+	display:none;
+}
+
+#noteD {
+	display:none;
+}
+
+#noteFF {
+	display:none;
+}
+
+#noteEE {
+	display:none;
+}
+
+#noteF {
+	display:none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.row div {
+	/*outline: 1px solid black;*/
+	background: rgb(222, 222, 222);
+	height: 50px;
+}
+
+/*article {
+	background-color: red;
+	height: 100%;
+}*/
+#two {
+	outline:none;
+	/*outline: 1px solid black;*/
+	background: rgb(222, 222, 222);
+	margin-top:50px;
+	height:300px;
+	}
+
+	#three {
+	outline:none;
+	/*outline: 1px solid black;*/
+	background: rgb(222, 222, 222);
+	margin-top:50px;
+	height:50px;
+	}

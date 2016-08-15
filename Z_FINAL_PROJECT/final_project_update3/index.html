@@ -36,8 +36,16 @@
    <source src="sounds/B4-493.88.mp3" type="audio/mp3"></source>
 </audio>
 
+<audio id="B3">
+   <source src="sounds/B3-246.94.mp3" type="audio/mp3"></source>
+</audio>
+
 <audio id="D4">
    <source src="sounds/D4-293.66.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="D5">
+   <source src="sounds/D5-587.33.mp3" type="audio/mp3"></source>
 </audio>
 
 <audio id="FsharpAudio">
@@ -48,9 +56,54 @@
    <source src="sounds/A4-440.0.mp3" type="audio/mp3"></source>
 </audio>
 
+<audio id="E5">
+   <source src="sounds/E5-659.26.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="CsharpAudio">
+   <source src="sounds/Csharp5-554.37.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="GsharpAudio">
+   <source src="sounds/Gsharp4-415.3.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="DsharpAudio">
+   <source src="sounds/Dsharp4-311.13.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="DsharpAudio2">
+   <source src="sounds/Dsharp5-622.25.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="AsharpAudio">
+   <source src="sounds/Asharp4-466.16.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="Fsharp5">
+   <source src="sounds/Fsharp5.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="Csharp4">
+   <source src="sounds/Csharp4-277.18.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="F4">
+   <source src="sounds/F4-349.23.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="F5">
+   <source src="sounds/F5.mp3" type="audio/mp3"></source>
+</audio>
+
+
+
+
 <div class= "animated flash" id=yeah>
 		<h1>yeah yeah yeah</h1>
 </div>
+
+
 
 <div id=staff>
 
@@ -85,12 +138,12 @@
 	</div>
 
 <div id=flats>
-	<img id=Bflat src="img/flat.png">
-	<img id=Eflat src="img/flat.png">
-	<img id=Aflat src="img/flat.png">
-	<img id=Dflat src="img/flat.png">
-	<img id=Gflat src="img/flat.png">
-	<img id=Cflat src="img/flat.png">
+	<img class=flat id=Bflat src="img/flat.png">
+	<img class=flat id=Eflat src="img/flat.png">
+	<img class=flat id=Aflat src="img/flat.png">
+	<img class=flat id=Dflat src="img/flat.png">
+	<img class=flat id=Gflat src="img/flat.png">
+	<img class=flat id=Cflat src="img/flat.png">
 </div>
 
 <div id=notes>
@@ -115,19 +168,19 @@
 </div>
 
 <div id=major_keys>	
-	<button class=majorButton id=CM> CM </button>
-	<button class=majorButton id=GM> GM </button>
-	<button class=majorButton id=DM> DM </button>
-	<button class=majorButton id=AM> AM </button>
-	<button class=majorButton id=EM> EM </button>
-	<button class=majorButton id=BM> BM </button>
+	<button class=majorButton id=CM> C </button>
+	<button class=majorButton id=GM> G </button>
+	<button class=majorButton id=DM> D </button>
+	<button class=majorButton id=AM> A </button>
+	<button class=majorButton id=EM> E </button>
+	<button class=majorButton id=BM> B </button>
 	<button class=majorButton id=FsharpMajor> F# </button>
-	<button class=majorButton id=G♭M> G&#9837M </button>
-	<button class=majorButton id=D♭M> D&#9837M </button>
-	<button class=majorButton id=A♭M> A&#9837M </button>
-	<button class=majorButton id=E♭M> E&#9837M </button>
-	<button class=majorButton id=B♭M> B&#9837M </button>
-	<button class=majorButton id=FM> FM </button>
+	<button class=majorButton id=G♭M> G&#9837 </button>
+	<button class=majorButton id=D♭M> D&#9837 </button>
+	<button class=majorButton id=A♭M> A&#9837 </button>
+	<button class=majorButton id=E♭M> E&#9837 </button>
+	<button class=majorButton id=B♭M> B&#9837 </button>
+	<button class=majorButton id=FM> F </button>
 </div>
 
 <div id=minor_label>
@@ -135,18 +188,19 @@
 </div>
 
 <div id=minor_keys>
-	<button class=minorButton id=Am> Am </button>
-	<button class=minorButton id=Em> Em </button>
-	<button class=minorButton id=Bm> Bm </button>
-	<button class=minorButton id=FsharpMinor> F#m </button>
-	<button class=minorButton id=CsharpMinor> C#m </button>
-	<button class=minorButton id=GsharpMinor> G#m </button>
-	<button class=minorButton id=E♭m> E&#9837m </button>
-	<button class=minorButton id=B♭m> B&#9837m </button>
-	<button class=minorButton id=Fm> Fm </button>
-	<button class=minorButton id=Cm> Cm </button>
-	<button class=minorButton id=Gm> Gm </button>
-	<button class=minorButton id=Dm> Dm </button>
+	<button class=minorButton id=Am> a m </button>
+	<button class=minorButton id=Em> e m </button>
+	<button class=minorButton id=Bm> b m </button>
+	<button class=minorButton id=FsharpMinor> f# m </button>
+	<button class=minorButton id=CsharpMinor> c# m </button>
+	<button class=minorButton id=GsharpMinor> g# m </button>
+	<button class=minorButton id=DsharpMinor> d# m </button>
+	<button class=minorButton id=E♭m> e&#9837 m </button>
+	<button class=minorButton id=B♭m> b&#9837 m </button>
+	<button class=minorButton id=Fm> f m </button>
+	<button class=minorButton id=Cm> c m </button>
+	<button class=minorButton id=Gm> g m </button>
+	<button class=minorButton id=Dm> d m </button>
 </div>
 
 <div id=reset>

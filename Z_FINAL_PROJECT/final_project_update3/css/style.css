@@ -15,16 +15,18 @@ p{
 }
 
 #staff {
+	
+	margin-left:10%;
 	margin-top:50px;
 }
 
 
 .line {
 	height:2px;
-	width:400px;
+	width:500px;
 	background:#ffffff;
 	margin-top:30px;
-	margin-left:43%;
+	margin-left:20%%;
 }
 
 .lowerline {
@@ -33,7 +35,7 @@ p{
 	width:100px;
 	background:#ffffff;
 	margin-top:30px;
-	margin-left:62%;
+	margin-left:26%;
 }
 
 #notes {
@@ -41,12 +43,14 @@ p{
 }
 
 .note {
-	width:5%;
-	height:5%;
+	width:4.3%;
+	height:4.3%;
 }
 
+
+
 .note {
- 	margin-left:65%;
+ 	margin-left:67%;
 }
 
 #trebleCleff {
@@ -54,140 +58,151 @@ p{
 	/*width:7%;*/
 	/*height:7%;*/
 	top:150px;
-	margin-left:42%;
+	margin-left:11%;
 }
 
 
 #noteF {
 	position:absolute;
-	top:145px;
+	margin-left:39%;
+	top:19%;
 }
 
 #noteD {
 	position:absolute;
-	top:180px;
+	margin-left:39%;
+	top:23%;
 }
 
 #noteB{
 	position:absolute;
-	top:212px;
+	margin-left:39%;
+	top:27%;
 }
 
 #noteG {
 	position:absolute;
-	top:244px;
+	margin-left:39%;
+	top:31%;
 }
 
 #noteEE {
 	position:absolute;
-	top:276px;
+	margin-left:39%;
+	top:35%;
 }
 
 #noteDD {
 	position:absolute;
-	top:288px;
+	margin-left:39%;
+	top:37%;
 }
 
 #noteE {
 	position:absolute;
-	top:160px;
+	margin-left:39%;
+	top:21%;
 }
 
 #noteC {
 	position:absolute;
-	top:195px;
+	margin-left:39%;
+	top:199px;
 }
 
 #noteA {
 	position:absolute;
-	top:225px;
+	margin-left:39%;
+	top:29%;
 }
 
 #noteFF {
 	position:absolute;
-	top:260px;
+	margin-left:39%;
+	top:33%;
 }
 
 #noteCC {
 	position:absolute;
-	top:308px;
+	margin-left:39%;
+	top:39%;
 }
 
 #Fsharp {
-	margin-left:48%;
+	margin-left:18.75%;
 	position:absolute;
-	top:143px;
+	top:19%;
 }
 
 #Esharp {
-	margin-left:60%;
+	margin-left:33%;
 	position:absolute;
-	top:155px;
+	top:21%;
 }
 
 #Csharp {
-	margin-left:50%;
+	margin-left:20%;
 	position:absolute;
-	top:190px;
+	top:25%;
 }
 
 #Gsharp {
-	margin-left:53%;
+	margin-left:24%;
 	position:absolute;
-	top:132px;
+	top:17.5%;
 }
 
 #Dsharp {
-	margin-left:55%;
+	margin-left:27%;
 	position:absolute;
-	top:174px;
+	top:22.75%;
 }
 
  #Asharp {
-	margin-left:57%;
+	margin-left:30%;
 	position:absolute;
-	top:220px;
+	top:29%;
 }
 
 #Bflat {
-	margin-left:50%;
+	margin-left:20%;
 	position:absolute;
-	top:200px;
+	top:26%;
 	display:none;
 }
 
 #Eflat {
-	margin-left:53%;
+	margin-left:24%;
 	position:absolute;
-	top:155px;
+	top:20%;
 	display:none;
 }
 
 #Aflat {
-	margin-left:55%;
+	margin-left:25%;
 	position:absolute;
-	top:220px;
+	top:28%;
 	display:none;
 }
 
 #Dflat {
-	margin-left:57%;
+	margin-left:29%;
 	position:absolute;
-	top:172px;
+	top:22%;
 	display:none;
 }
 
 #Gflat {
-	margin-left:59%;
+	margin-left:31%;
 	position:absolute;
-	top:233px;
+	top:30%;
 	display:none;
 }
 
 #Cflat {
-	margin-left:62%;
+	margin-left:33%;
 	position:absolute;
-	top:190px;
+	top:24%;
 	display:none;
 }
 
@@ -195,12 +210,11 @@ p{
 
 #yeah {
 	margin:0, auto;
-	margin-left:14%;
-	/*margin-left:40%;*/
+	margin-left:10%;
 	top: 50%;
-	left: 100%;
+	left: 20%;
 	color:#904dd9;
-	text-align:center;
+	/*text-align:center;*/
 	font-size:2em;
 	font-style:italic;
 	word-spacing: 30px
@@ -209,7 +223,7 @@ p{
 	width:100%;
 	/*white-space: nowrap;*/
   	/*overflow: hidden;*/
-  	text-shadow: #ffffff 1px 1px, #ffffff 2px 2px, #14ccbb 3px 3px, #14ccbb 4px 4px, #14ccbb 5px 5px, #14ccbb 6px 6px, #14ccbb 7px 7px, #14ccbb 8px 8px, #14ccbb 9px 9px;
+  	text-shadow: #14ccbb 1px 1px, #14ccbb 2px 2px, #14ccbb 3px 3px, #14ccbb 4px 4px, #14ccbb 5px 5px, #14ccbb 6px 6px, #14ccbb 7px 7px, #14ccbb 8px 8px, #14ccbb 9px 9px;
   }
 
  #instructions {
@@ -260,7 +274,7 @@ p{
  	border-radius:10%;
  	letter-spacing: 0.1em;
  	width:60px;
-	height:30px;
+	height:40px;
 	color:white;
 	background-color:#ff00e5;
 }
@@ -271,7 +285,7 @@ p{
 	border:none;
 	letter-spacing: 0em;
 	width:60px;
-	height:30px;
+	height:50px;
 	color:white;
 	background-color:#14ccbb;
 	align:bottom;
@@ -283,12 +297,14 @@ p{
 
 #resetButton {
 	position:relative;
-	margin-left:10%;
+	top:-518px;
+	margin-left:68%;
  	border:none;
  	border-radius:100%;
  	letter-spacing: 0.1em;
+ 	font-size:1.2em;
  	width:100px;
-	height:30px;
+	height:100px;
 	color:white;
 	background-color:#00F5FF;
 }
